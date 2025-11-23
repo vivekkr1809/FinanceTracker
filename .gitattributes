@@ -1,0 +1,46 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text=auto
+
+###############################################################################
+# Set default behavior for command prompt diff.
+###############################################################################
+*.cs     diff=csharp
+*.vb     diff=vb
+*.xaml   text
+*.json   text
+*.xml    text
+
+###############################################################################
+# Set the merge driver for project and solution files
+###############################################################################
+*.sln       text eol=crlf merge=union
+*.csproj    text eol=crlf merge=union
+*.vbproj    text eol=crlf merge=union
+*.vcxproj   text eol=crlf merge=union
+*.props     text eol=crlf merge=union
+*.filters   text eol=crlf merge=union
+
+###############################################################################
+# Diff settings for specific file types
+###############################################################################
+*.docx  diff=astextplain
+*.DOCX  diff=astextplain
+*.dot   diff=astextplain
+*.DOT   diff=astextplain
+*.pdf   diff=astextplain
+*.PDF   diff=astextplain
+*.rtf   diff=astextplain
+*.RTF   diff=astextplain
+
+###############################################################################
+# Binary files
+###############################################################################
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.dll   binary
+*.exe   binary
